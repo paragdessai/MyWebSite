@@ -1,0 +1,110 @@
+				
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+body{
+	background-image:url("http://www.sngpokerstrategie.com/wp-content/uploads/2009/11/dice-feeling-lucky_1920x1200.jpg");
+	background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-blend-mode: true;
+
+}
+
+
+.pageContainer{
+	box-sizing: border-box;
+	margin-top:25px;
+	margin-bottom:45px;
+	height:250px;
+	width:1300px;
+
+}
+
+.pageContainer a{
+
+	color: Orange;
+}
+
+
+
+.h1{
+
+	font-size: 28px;
+	font-style: italic;
+	font: Georgia;
+	color:orange;
+}
+
+.imageContainer{
+	float:left;
+	display: block;
+
+	margin-left:15px;
+	margin-right: 1px;
+	height: 250px;
+	width:250px;
+
+	padding:5px;
+	border: 2px solid black
+
+}
+
+.imageContainer img{
+	margin-left:-5px;
+	margin-right: 0px;
+	margin-top:-5px;
+
+	align:container;
+	height:260px;
+	width: 260px;
+
+
+
+
+}
+
+
+
+@media (min-width: 201px) and (max-width:500px){
+
+	.pageContainer{
+	margin-top:25px;
+	margin-bottom:45px;
+	height:250px;
+	width:300px;
+
+}
+
+
+}
+
+@media all and (max-width: 1200px){
+
+	.pageContainer{
+	margin-top:25px;
+	margin-bottom:45px;
+	height:250px;
+	width:1300px;
+
+}
+}
+
