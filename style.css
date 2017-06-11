@@ -31,8 +31,6 @@
 		text-decoration: none;
 	}
 
-
-
 	/*class*/
 	.events{
 		color: white;
@@ -73,7 +71,7 @@
 
 
 
-	rightColumn {
+	.rightColumn{
 		width: 460px;
 		float: left;
 		margin: 0;
@@ -117,27 +115,6 @@
 
 	}
 
-	.contriesVisted{
-
-		
-
-		margin:15px;
-		height: 400px;
-		width:300px;
-	}
-
-	.contriesVisted li{
-		clear:both;
-		display: block;
-		list-style-type: square;
-		list-style-type: none;
-		color: white;
-	}
-
-	.contriesVisted ul {
-		background-color:19 18 18;
-
-	}
 
 
 	.fixed-block {
@@ -156,6 +133,46 @@
 
 		align-content: center;
 	}
+
+	.countries1{
+		float: left;
+		text-align: left;
+		color: white;
+		height: 200px;
+		width:100px;
+		box-sizing:content-box;
+		background-color: ;
+	}
+
+.countries1 ul{
+list-style-type: circle;
+background-color:initial;
+
+}
+
+.countries2{
+	margin-left: 5px;
+		float: left;
+		text-align: left;
+		color: white;
+		height: 200px;
+		width:100px;
+		box-sizing:content-box;
+		background-color: ;
+	}
+
+.countries2 ul{
+list-style-type: circle;
+background-color:initial;
+
+}
+
+
+
+
+
+
+
 
 
 	

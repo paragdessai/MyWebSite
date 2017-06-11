@@ -1,28 +1,35 @@
 .col-md-8{
 	margin-top: 5px;
 	padding-top: 5px;
-
-	border:1px solid red;
+    color: white;
+	border:1px solid white;
 }
 
 .col-md-4{
 	margin-top: 5px;
 	padding-top: 5px;
 
-	border:1px solid red;
+	border:1px solid white;
 }
+
+.col-md-4 img{
+height: 290px;
+width: 380px;
+
+}
+
 .col-md-6{
 	margin-top: 5px;
 	padding-top: 5px;
 
-	border:1px solid red;
+	border:1px solid white;
 }
 
 .col-md-12{
 	margin-top: 5px;
 	padding-top: 5px;
 
-	border:1px solid red;
+	border:1px solid white;
 }
 
 .pagelayout{
@@ -49,4 +56,23 @@ ul {
 		text-align: center;
 		padding: 14px 16px;
 		text-decoration: none;
+	}
+
+
+	body{
+		background-image:url("http://www.sngpokerstrategie.com/wp-content/uploads/2009/11/dice-feeling-lucky_1920x1200.jpg");
+		background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-blend-mode: true;
+
+	}
+
+	h2{
+		color: white;
+	}
+
+	p {
+		color: white;
 	}
